@@ -1,0 +1,194 @@
+.navbar {
+  min-height: 70px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+  transition: background-color 0.4s ease, border-color 0.4s ease;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); 
+  box-shadow: none;
+}
+
+h1, h2 {
+  font-family: "Alfa Slab One", serif;
+}
+
+.light-text {
+  color: #e6e6e6 !important; /* soft light gray */
+}
+
+
+/* Logo adjustments */
+.navbar-brand img {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ddd !important;
+}
+
+.navbar.scrolled {
+  background-color: #fff !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.scrolled .navbar-nav .nav-link {
+  color: #000 !important;
+}
+
+.navbar.scrolled .navbar-nav .nav-link:hover {
+  color: #555 !important;
+}
+
+/* Ensure link colors override Bootstrap when scrolled */
+.navbar.navbar-dark.scrolled .navbar-nav .nav-link {
+  color: #000 !important;
+}
+
+.navbar.navbar-dark.scrolled .navbar-nav .nav-link:hover {
+  color: #555 !important;
+}
+
+
+/*-------------------------- HEADER -------------------------*/
+
+/* Hero header overlay */
+.hero-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3); 
+  z-index: 0;
+}
+
+.hero-header .container {
+  position: relative;
+  z-index: 1; 
+}
+
+/* Hero header custom colors */
+.hero-title {
+  color: #ffffff; 
+}
+
+.hero-subtitle {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  text-shadow: 1px 1px 3px rgba(249, 249, 249, 0.9);
+}
+
+footer {
+  width: 100%;
+  max-width: 100%;
+  background-color: #000000; 
+  border-top: 4px solid #9d0005;
+}
+
+/* GOOGLE FONTS */
+.meow-script-regular {
+  font-family: "Meow Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+
+/*-------------------------- SUGGESTIONS -------------------------*/
+.suggestions-section {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #111;
+  border: 1px solid #9d0005;
+  border-radius: 10px;
+  color: #f4f4f4;
+  text-align: center;
+}
+
+body {
+  background-color: #111; /* deep black/charcoal */
+  color: white;
+}
+
+.suggestions-section h2 {
+  color: #9d0005;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.suggestions-section p {
+  margin-bottom: 25px;
+  font-size: 1rem;
+  color: #ddd;
+}
+
+/* Form Styling */
+.suggestions-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.suggestions-form label {
+  text-align: left;
+  font-weight: 600;
+  color: #e6e6e6;
+}
+
+.suggestions-form input,
+.suggestions-form textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #222;
+  border: 1px solid #444;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.suggestions-form input:focus,
+.suggestions-form textarea:focus {
+  border-color: #9d0005;
+  outline: none;
+}
+
+/* Button */
+.suggestions-form button {
+  padding: 12px;
+  background-color: #9d0005;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  font-weight: bold;
+}
+
+.suggestions-form button:hover {
+  background-color: #9d0005;
+  transform: scale(1.03);
+}
