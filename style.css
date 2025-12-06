@@ -14,13 +14,46 @@
   box-shadow: none;
 }
 
-h1, h2 {
+h1 {
   font-family: "Alfa Slab One", serif;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: "Alfa Slab One", serif;
+  color: #9d0005;
 }
 
 .light-text {
   color: #e6e6e6 !important; /* soft light gray */
 }
+
+/* HERO HEADER */
+.hero-header {
+    background: url('venueheader.jpg') center/cover no-repeat;
+    min-height: 100vh;
+}
+
+/* RED TITLE */
+.mission-title {
+    color: red;
+}
+
+/* RED CARD BORDER */
+.custom-card {
+    border: 2px solid red;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+  background-color: #464242;
+}
+.btn-dark:hover {
+  background-color: #9d0005;
+  border-color: #9d0005;
+}
+
 
 
 /* Logo adjustments */
@@ -103,11 +136,11 @@ footer {
 }
 
 /* GOOGLE FONTS */
-.meow-script-regular {
-  font-family: "Meow Script", cursive;
-  font-weight: 400;
-  font-style: normal;
+h1, h2, h3, .navbar-brand {
+  font-family: 'New Amsterdam', sans-serif;
 }
+
+
 
 
 .nav-item.dropdown:hover .dropdown-menu {
@@ -192,3 +225,168 @@ body {
   background-color: #9d0005;
   transform: scale(1.03);
 }
+
+/* ***********ALLIANZ*********** */
+/* HERO HEADER (background removed from inline styles) */
+.allianz-hero {
+    background: url('allianz-main.jpg') center/cover no-repeat;
+    min-height: 100vh;
+}
+
+/* ABOUT SECTION PARAGRAPH WIDTH */
+.about-allianz-text {
+    max-width: 750px;
+}
+
+/* CARD BACKGROUNDS */
+.pros-cons-card {
+    background-color: #f2f2f2;
+}
+
+/* PROS HEADER COLOR */
+.pros-header {
+    background-color: #3a8f3a;
+}
+
+/* CONS HEADER COLOR */
+.cons-header {
+    background-color: #b83a3a;
+}
+
+/* **********ANTHEM************ */
+/* HERO HEADER */
+.anthem-hero {
+    background: url('anthem-main.jpeg') center/cover no-repeat;
+    min-height: 100vh;
+}
+
+/* About Section Paragraph Width */
+.anthem-about-text {
+    max-width: 750px;
+}
+
+/* Shared Pros/Cons Card Styling */
+.pros-cons-card {
+    background-color: #f2f2f2;
+}
+
+/* Pros Header Color */
+.pros-header {
+    background-color: #3a8f3a;
+}
+
+/* Cons Header Color */
+.cons-header {
+    background-color: #b83a3a;
+}
+
+/* *******HAMPTON******** */
+/* HERO HEADER */
+.hampton-hero {
+    background: url('hampton-main.jpeg') center/cover no-repeat;
+    min-height: 100vh;
+}
+
+/* About Section Paragraph Width */
+.hampton-about-text {
+    max-width: 750px;
+}
+
+/* Shared Pros/Cons Card Styling */
+.hampton-pros-cons-card {
+    background-color: #f2f2f2;
+}
+
+/* Pros Header Color */
+.hampton-pros-header {
+    background-color: #3a8f3a;
+}
+
+/* Cons Header Color */
+.hampton-cons-header {
+    background-color: #b83a3a;
+}
+
+/* ***********JEFFERSON*********** */
+
+/* HERO HEADER */
+.jefferson-hero {
+    background: url('jefferson-main.jpeg') center/cover no-repeat;
+    min-height: 100vh;
+}
+
+/* About Section Paragraph Width */
+.jefferson-about-text {
+    max-width: 750px;
+}
+
+/* Shared Pros/Cons Card Styling */
+.jefferson-pros-cons-card {
+    background-color: #f2f2f2;
+}
+
+/* Pros Header Color */
+.jefferson-pros-header {
+    background-color: #3a8f3a;
+}
+
+/* Cons Header Color */
+.jefferson-cons-header {
+    background-color: #b83a3a;
+}
+
+/* ***********NATS / NATIONALS PARK*********** */
+
+/* HERO HEADER */
+.nats-hero {
+    background: url('national-main.jpeg') center/cover no-repeat;
+    min-height: 100vh;
+}
+
+/* About Section Paragraph Width */
+.nats-about-text {
+    max-width: 750px;
+}
+
+/* Shared Pros/Cons Card Styling */
+.nats-pros-cons-card {
+    background-color: #f2f2f2;
+}
+
+/* Pros Header Color */
+.nats-pros-header {
+    background-color: #3a8f3a;
+}
+
+/* Cons Header Color */
+.nats-cons-header {
+    background-color: #b83a3a;
+}
+
+/* **********VETERANS************ */
+/* HERO HEADER */
+.veterans-hero {
+    background: url('veterans-main.jpeg') center/cover no-repeat;
+    min-height: 100vh;
+}
+
+/* About Section Paragraph Width */
+.veterans-about-text {
+    max-width: 750px;
+}
+
+/* Shared Pros/Cons Card Styling */
+.veterans-pros-cons-card {
+    background-color: #f2f2f2;
+}
+
+/* Pros Header Color */
+.veterans-pros-header {
+    background-color: #3a8f3a;
+}
+
+/* Cons Header Color */
+.veterans-cons-header {
+    background-color: #b83a3a;
+}
+
